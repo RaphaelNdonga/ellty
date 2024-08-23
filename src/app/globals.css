@@ -46,18 +46,17 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked {
   background-color: #2369f6;
-  background: url('check-gray.svg');
-  background-size: contain;
   position: relative;
   transition: all 0.8s ease;
 }
 
 input[type="checkbox"]:checked::before {
+  content: '\2713';
+  color: white;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
   font-size: 14px;
 }
 
