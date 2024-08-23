@@ -41,15 +41,18 @@ input[type="checkbox"] {
   height: 23px;
   border: 1px solid #dadadb;
   border-radius: 6px;
+  transition: all 0.8s ease;
 }
 
 input[type="checkbox"]:checked {
   background-color: #2369f6;
+  background: url('check-gray.svg');
+  background-size: contain;
   position: relative;
+  transition: all 0.8s ease;
 }
 
 input[type="checkbox"]:checked::before {
-  content: '\2713';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -66,6 +69,11 @@ button {
   border: none;
   border-radius: 5px;
   margin: 10px 0;
+}
+
+button:hover {
+  background-color: #FFD84D;
+  cursor: pointer;
 }
 
 a {
