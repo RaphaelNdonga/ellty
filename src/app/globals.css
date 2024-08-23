@@ -62,9 +62,10 @@ button {
   font-family: inherit;
   color: #000;
   background-color: #FFCE22;
-  padding: 10px;
+  padding: 11px;
   border: none;
   border-radius: 5px;
+  margin: 10px 0;
 }
 
 a {

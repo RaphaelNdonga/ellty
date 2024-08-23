@@ -8,6 +8,7 @@ export default function Home() {
           <p>All pages</p>
           <input type="checkbox"></input>
         </div>
+        <div className={styles.line} />
         <div className={styles.row}>
           <p>Page 1</p>
           <input type="checkbox"></input>
@@ -24,6 +25,7 @@ export default function Home() {
           <p>Page 4</p>
           <input type="checkbox"></input>
         </div>
+        <div className={styles.line} />
         <button className={styles.button}>
           Done
         </button>
